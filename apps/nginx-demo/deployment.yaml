@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+  apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-demo
@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: web-ui
-        image: 208295046981.dkr.ecr.us-east-2.amazonaws.com/web-ui:v1
+        image: image: 208295046981.dkr.ecr.us-east-2.amazonaws.com/web-ui:v2
         ports:
         - containerPort: 80
